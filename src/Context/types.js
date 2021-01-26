@@ -1,0 +1,5 @@
+export const inc = 'inc'
+export const dec = 'dec'
+export const bal = 'bal'
+export const add = 'add'
+export const clr = 'clr'
