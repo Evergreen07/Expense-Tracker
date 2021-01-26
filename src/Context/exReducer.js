@@ -2,7 +2,7 @@ import {
   add,clr
 } from './types'
 
-export default (state,action) => {
+const exReducer = (state,action) => {
     switch (action.type) {        
         case add :
             return {
@@ -20,3 +20,5 @@ export default (state,action) => {
             return state;
     }
 }
+
+export default exReducer;
