@@ -8,7 +8,7 @@
 
 .container{
   margin: 20px auto;
-  padding : 10px 20px;
+  padding : 10px 14px;
   border: 4px solid navy;
   border-radius: 10px;
   width: 90%;
@@ -150,7 +150,6 @@ h3{
 }
 
 @media(max-width:570px){
-  
   .cr,.dr,.Balance{
     font-size: 14px;
   }
@@ -199,5 +198,11 @@ h3{
   }
   .Items{
     font-size: 7.5px;
+  }
+}
+
+@media(min-width:570px){
+  .container{
+    padding: 10px 20px;
   }
 }

@@ -11,9 +11,9 @@ const ExState = (props) => {
     const initialState = {
         balance_ : 100,
         transactions_ : [
-            { id_ : 0, title_ : 'Payment', amount_ : 100, date_ : '2021-01-25', check_:true},
-            { id_ : 1, title_ : 'Grocery', amount_ : 50, date_ : '2021-01-24',check_:false},
-            { id_ : 2, title_ : 'GPay', amount_ : 1000, date_ : '2021-01-23', check_:true},
+            { id_ : 0, title_ : 'Interest', amount_ : 1000, date_ : '2021-01-25', check_:true},
+            { id_ : 1, title_ : 'Grocery', amount_ : 150, date_ : '2021-01-24',check_:false},
+            { id_ : 2, title_ : 'Payment', amount_ : 150000, date_ : '2021-01-23', check_:true},
         ]      
     }
 
