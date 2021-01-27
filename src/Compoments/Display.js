@@ -10,11 +10,11 @@ function Display() {
     return (
         <div className='Display'>
             <div className='cr'>
-                <h3 style={{ fontFamily: 'Libre Baskerville, serif', padding: '5px 0px',fontSize:'20px' }}>CREDIT</h3>
+                <h3 style={{ fontFamily: 'Libre Baskerville, serif', padding: '5px 0px'}}>CREDIT</h3>
                 <h2 style={{fontSize:'20px'}}>₹&ensp;{cr}</h2>
             </div>
             <div className='dr'>
-                <h3 style={{ fontFamily: 'Libre Baskerville, serif', padding: '5px 0px',fontSize:'20px' }}>EXPENSE</h3>
+                <h3 style={{ fontFamily: 'Libre Baskerville, serif', padding: '5px 0px'}}>EXPENSE</h3>
                 <h2 style={{fontSize:'20px'}}>₹&ensp;{dr}</h2>
             </div>
         </div>
