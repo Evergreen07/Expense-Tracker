@@ -106,7 +106,7 @@ h3{
 }
 
 .Transactions{
-  padding: 10px 20px;
+  padding: 10px 12px;
   margin: 15px 0px;
   border: 3px solid navy;
   border-radius: 10px;
@@ -189,7 +189,7 @@ h3{
   }
 }
 
-@media(max-width:330px){
+@media(max-width:362px){
   .Balance{
     font-size: 10.5px;
   }
@@ -198,6 +198,12 @@ h3{
   }
   .Items{
     font-size: 7.5px;
+  }
+}
+
+@media(min-width:370px){
+  .Transactions{
+    padding: 10px 16px;
   }
 }
 
