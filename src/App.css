@@ -189,13 +189,16 @@ h3{
   }
 }
 
-@media(max-width:362px){
+@media(max-width:330px){
   .Balance{
     font-size: 10.5px;
   }
   .cr h3,.dr h3{
     font-size: 18px;
   }
+}
+
+@media(max-width:362px){
   .Items{
     font-size: 7.5px;
   }
